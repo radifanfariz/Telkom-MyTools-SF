@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyToolsSF</string>
+
+
+    <!--    <string-array name="servicetype_arrays">-->
+    <!--        <item>MEDAN</item>-->
+    <!--        <item>ACEH</item>-->
+    <!--        <item>BABEL</item>-->
+    <!--        <item>BENGKULU</item>-->
+    <!--        <item>JAMBI</item>-->
+    <!--        <item>LAMPUNG</item>-->
+    <!--        <item>MEDAN</item>-->
+    <!--        <item>RIDAR</item>-->
+    <!--        <item>RIKEP</item>-->
+    <!--        <item>SUMBAR</item>-->
+    <!--        <item>SUMSEL</item>-->
+    <!--        <item>SUMUT</item>-->
+    <!--    </string-array>-->
+    <string name="title_activity_maps__navigation_drawer">Maps_NavigationDrawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_loginfo">Log Info</string>
+    <string name="menu_logcalang">Log Calang</string>
+    <string name="menu_logout">Log Out</string>
+    <string name="date_time">Date Time</string>
+    <string name="menu_changepassword">Change Password</string>
+
+    <string name="change_password">Change Password</string>
+    <string name="userid">UserID</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="process_sales">Process Sales</string>
+    <string name="log_calang">Log Calang</string>
+    <string name="log_info">Log Info</string>
+    <string name="log_out">Log Out</string>
+
+
+</resources>

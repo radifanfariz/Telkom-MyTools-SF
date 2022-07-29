@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/action_map_setting"
+        android:enabled="true"
+        android:icon="@drawable/ic_map_setting_new"
+        android:title="Map Setting"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_get_odp"
+        android:enabled="true"
+        android:icon="@drawable/ic_get_odp_new"
+        android:title="Get ODP"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_radius"
+        android:enabled="true"
+        android:icon="@drawable/ic_radius"
+        android:title="Radius"
+        app:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    card_view:cardBackgroundColor="#E6E6E6"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardElevation="8dp">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+        <TableRow android:background="#F82222"
+            android:layout_margin="1dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Info ODP"
+                android:textStyle="bold"
+                android:textSize="20dip"
+                android:textAlignment="center"
+                android:gravity="center_vertical"
+                android:textColor="#000000"/>
+        </TableRow>
+        <TableRow android:background="#FAC4B3B3"
+            android:layout_margin="1dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama ODP  : "
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/nama_odp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:scrollHorizontally="false"
+                android:text=""
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+        </TableRow>
+
+
+        <TableRow android:background="#FAC4B3B3"
+            android:layout_margin="1dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Jarak RAD: "
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+        </TableRow>
+
+
+        <TableRow android:background="#FAC4B3B3"
+            android:layout_margin="1dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Jarak ODO: "
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvDistance_odo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+        </TableRow>
+
+        <TableRow android:background="#FAC4B3B3"
+            android:layout_margin="1dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="83dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Total : "
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+        </TableRow>
+
+
+
+
+        <TableRow android:background="#FAC4B3B3"
+            android:layout_margin="1dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service   : "
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/service"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+        </TableRow>
+        <TableRow android:background="#FAC4B3B3"
+            android:layout_margin="1dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Availability  : "
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/avai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+        </TableRow>
+        <TableRow android:background="#FAC4B3B3"
+            android:layout_margin="1dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Occupancy : "
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/occupancy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+        </TableRow>
+        <TableRow android:background="#FAC4B3B3"
+            android:layout_margin="1dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latitude   : "
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/lat2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+        </TableRow>
+        <TableRow android:background="#FAC4B3B3"
+            android:layout_margin="1dp"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Longitude  : "
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/lng2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15dp"
+                android:textColor="#000000"/>
+        </TableRow>
+    </TableLayout>
+</androidx.cardview.widget.CardView>
